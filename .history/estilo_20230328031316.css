@@ -117,11 +117,13 @@ nav {
 	transition: .5s ease-out;
 }
 
-.menu .nome a:hover {
+.menu .nome a:hover
+{
 	color: #e6ba38;
 }
 
-.menu .links a {
+.menu .links a
+{
 	color: #222222;
 	font-weight: 500;
 	font-size: 15px;
@@ -130,19 +132,23 @@ nav {
 	transition: .5s ease-out;
 }
 
-.menu .links a:hover {
+.menu .links a:hover
+{
 	color: #e6ba38;
 }
 
-.menu .links a.active {
+.menu .links a.active
+{
 	color: #e6ba38;
 }
 
-.menu .campo-busca {
+.menu .campo-busca
+{
   	float: right;
 }
 
-.menu input[name="busca"] {
+.menu input[name="busca"] 
+{
 	border: 1px solid #222222;
 	border-width: 1px 0px 1px 1px;
 	color: #222222;
@@ -164,11 +170,13 @@ nav {
 	width: 25px;
 }
 
-.menu .campo-busca button .material-symbols-outlined {
+.menu .campo-busca button .material-symbols-outlined
+{
 	color: #efefef;
 }
 
-.menu .campo-busca button .material-symbols-outlined:hover {
+.menu .campo-busca button .material-symbols-outlined:hover 
+{
 	color: #222222;
 }
 
@@ -176,9 +184,9 @@ nav {
   	background: #e6ba38;
 }
 
-
-/* ---Configuração do footer no main--- */
-.main-footer {
+									/* ---Configuração do footer no main--- */
+.main-footer
+{
 	background-color: #222222;
    	bottom: 0;
 	color: #efefef;
@@ -187,7 +195,8 @@ nav {
    	width: 100%;
 }
 
-.main-footer .footer {
+.main-footer .footer
+{
 	align-content: center;
 	display: flex;
 	justify-content: space-between;
@@ -196,38 +205,45 @@ nav {
 	padding: 10px 0;
 }
 
-.main-footer .footer .autor {
+.main-footer .footer .autor
+{
 	display: flex;
 	flex-direction: column;
 }
 
-.main-footer .footer .autor h4 {
+.main-footer .footer .autor h4
+{
 	font-size: clamp(.8rem, 2vw, .8rem);
 	font-weight: 300;
 	transition: .3s ease-out;
 }
 
-.main-footer .footer .autor h4:hover {
+.main-footer .footer .autor h4:hover
+{
 	color: #e6ba38;
 }
 
-.main-footer .footer .autor h5 {
+.main-footer .footer .autor h5
+{
 	font-size: clamp(.6rem, 2vw, .6rem);
 	font-weight: 200;
 	margin-top: 3px;
 	transition: .3s ease-out;
 }
 
-.main-footer .footer .autor h5:hover {
+.main-footer .footer .autor h5:hover
+{
 	color: #e6ba38;
 }
 
-.main-footer .footer .links {
+.main-footer .footer .links
+{
 	align-items: center;
 	display: flex;
 }
 
-.main-footer .footer .links .github {
+.main-footer .footer .links .github
+{
 	background-image: url(imagens/github-icon.png);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -239,7 +255,8 @@ nav {
 	width: 23px;
 }
 
-.main-footer .footer .links .linkedin {
+.main-footer .footer .links .linkedin
+{
 	background-image: url(imagens/linkedin-icon.png);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -250,17 +267,19 @@ nav {
 	width: 23px;
 }
 
-.main-footer .footer .links .github:hover {
+.main-footer .footer .links .github:hover
+{
 	background-image: url(imagens/github-iconb.png);
 }
 
-.main-footer .footer .links .linkedin:hover {
+.main-footer .footer .links .linkedin:hover
+{
 	background-image: url(imagens/linkedin-iconb.png);
 }
 
-
-/* ---Configuração do footer em outras paginas--- */
-.sub-footer {
+							/* ---Configuração do footer em outras paginas--- */
+.sub-footer
+{
 	background-color: #222222;
    	bottom: 0;
 	color: #efefef;
@@ -268,7 +287,8 @@ nav {
    	width: 100%;
 }
 
-.sub-footer .footer {
+.sub-footer .footer
+{
 	align-content: center;
 	display: flex;
 	justify-content: space-between;
@@ -277,38 +297,45 @@ nav {
 	padding: 10px 0;
 }
 
-.sub-footer .footer .autor {
+.sub-footer .footer .autor
+{
 	display: flex;
 	flex-direction: column;
 }
 
-.sub-footer .footer .autor h4 {
+.sub-footer .footer .autor h4
+{
 	font-size: clamp(.8rem, 2vw, .8rem);
 	font-weight: 300;
 	transition: .3s ease-out;
 }
 
-.sub-footer .footer .autor h4:hover {
+.sub-footer .footer .autor h4:hover
+{
 	color: #e6ba38;
 }
 
-.sub-footer .footer .autor h5 {
+.sub-footer .footer .autor h5
+{
 	font-size: clamp(.6rem, 2vw, .6rem);
 	font-weight: 200;
 	margin-top: 3px;
 	transition: .3s ease-out;
 }
 
-.sub-footer .footer .autor h5:hover {
+.sub-footer .footer .autor h5:hover
+{
 	color: #e6ba38;
 }
 
-.sub-footer .footer .links {
+.sub-footer .footer .links
+{
 	align-items: center;
 	display: flex;
 }
 
-.sub-footer .footer .links .github {
+.sub-footer .footer .links .github
+{
 	background-image: url(imagens/github-icon.png);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -320,7 +347,8 @@ nav {
 	width: 23px;
 }
 
-.sub-footer .footer .links .linkedin {
+.sub-footer .footer .links .linkedin
+{
 	background-image: url(imagens/linkedin-icon.png);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -331,26 +359,30 @@ nav {
 	width: 23px;
 }
 
-.sub-footer .footer .links .github:hover {
+.sub-footer .footer .links .github:hover
+{
 	background-image: url(imagens/github-iconb.png);
 }
 
-.sub-footer .footer .links .linkedin:hover {
+.sub-footer .footer .links .linkedin:hover
+{
 	background-image: url(imagens/linkedin-iconb.png);
 }
 
 
-/* ---Configuração do conteúdo da home--- */
-.conteudo-home {
+								/* ---Configuração do conteúdo da home--- */
+.conteudo-home
+{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	margin: auto;
+	margin-top: 5rem;
 	max-width: 900px;
-	padding-top: 7rem;
 }
 
-.conteudo-home .img {
+.conteudo-home .img
+{
 	background-image: url(imagens/elias-index.png);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -360,53 +392,60 @@ nav {
 	height: 70vh;
 }
 
-.conteudo-home .texto2 {
+.conteudo-home .texto2
+{
 	display: none;
 }
 
-.conteudo-home .texto1 {
+.conteudo-home .texto1
+{
 	font-size: clamp(.8rem, 2vw, 1rem);
 	font-weight: 400;
 	position: fixed;
 	width: 300px;
 }
 
-.conteudo-home .texto1 a {
+.conteudo-home .texto1 a
+{
 	color: #222222;
 	font-size: clamp(.8rem, 2vw, 1rem);
 	font-weight: 800;
 	transition: .3s ease-out;
 }
 
-.conteudo-home .texto1 a:hover {
+.conteudo-home .texto1 a:hover 
+{
 	color: #e6ba38;
 }
 
-.conteudo-home h1 {
+.conteudo-home h1
+{
 	align-self: flex-end;
 	font-size: clamp(3.5rem, 10vw, 3rem);
 	line-height: .6;
 	margin-top: -1.5rem;
 }
 
-.conteudo-home h1 .thin1 {
+.conteudo-home h1 .thin1
+{
 	font-size: clamp(1rem, 10vw, 3.5rem);
 	font-weight: 400;
 }
 
-.conteudo-home h1 .thin2 {
+.conteudo-home h1 .thin2
+{
 	font-size: clamp(1rem, 10vw, 2.3rem);
 	font-weight: 200;
 	padding: 0 0 0 2px;
 }
 
-.conteudo-home h1 .bold {
+.conteudo-home h1 .bold
+{
 	font-size: clamp(1rem, 10vw, 2.3rem);
 	font-weight: 400;
 }
 
-
-/* ---Configuração do conteúdo do estudos.html--- */
+						/* ---Configuração do conteúdo do estudos.html--- */
 .conteudo-estudos
 {
 	align-items: center;

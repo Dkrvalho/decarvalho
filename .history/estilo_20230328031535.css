@@ -331,26 +331,30 @@ nav {
 	width: 23px;
 }
 
-.sub-footer .footer .links .github:hover {
+.sub-footer .footer .links .github:hover
+{
 	background-image: url(imagens/github-iconb.png);
 }
 
-.sub-footer .footer .links .linkedin:hover {
+.sub-footer .footer .links .linkedin:hover
+{
 	background-image: url(imagens/linkedin-iconb.png);
 }
 
 
-/* ---Configuração do conteúdo da home--- */
-.conteudo-home {
+								/* ---Configuração do conteúdo da home--- */
+.conteudo-home
+{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	margin: auto;
+	margin-top: 5rem;
 	max-width: 900px;
-	padding-top: 7rem;
 }
 
-.conteudo-home .img {
+.conteudo-home .img
+{
 	background-image: url(imagens/elias-index.png);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -360,53 +364,60 @@ nav {
 	height: 70vh;
 }
 
-.conteudo-home .texto2 {
+.conteudo-home .texto2
+{
 	display: none;
 }
 
-.conteudo-home .texto1 {
+.conteudo-home .texto1
+{
 	font-size: clamp(.8rem, 2vw, 1rem);
 	font-weight: 400;
 	position: fixed;
 	width: 300px;
 }
 
-.conteudo-home .texto1 a {
+.conteudo-home .texto1 a
+{
 	color: #222222;
 	font-size: clamp(.8rem, 2vw, 1rem);
 	font-weight: 800;
 	transition: .3s ease-out;
 }
 
-.conteudo-home .texto1 a:hover {
+.conteudo-home .texto1 a:hover 
+{
 	color: #e6ba38;
 }
 
-.conteudo-home h1 {
+.conteudo-home h1
+{
 	align-self: flex-end;
 	font-size: clamp(3.5rem, 10vw, 3rem);
 	line-height: .6;
 	margin-top: -1.5rem;
 }
 
-.conteudo-home h1 .thin1 {
+.conteudo-home h1 .thin1
+{
 	font-size: clamp(1rem, 10vw, 3.5rem);
 	font-weight: 400;
 }
 
-.conteudo-home h1 .thin2 {
+.conteudo-home h1 .thin2
+{
 	font-size: clamp(1rem, 10vw, 2.3rem);
 	font-weight: 200;
 	padding: 0 0 0 2px;
 }
 
-.conteudo-home h1 .bold {
+.conteudo-home h1 .bold
+{
 	font-size: clamp(1rem, 10vw, 2.3rem);
 	font-weight: 400;
 }
 
-
-/* ---Configuração do conteúdo do estudos.html--- */
+						/* ---Configuração do conteúdo do estudos.html--- */
 .conteudo-estudos
 {
 	align-items: center;

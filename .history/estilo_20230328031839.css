@@ -346,8 +346,8 @@ nav {
 	flex-direction: column;
 	justify-content: space-between;
 	margin: auto;
+	margin-top: 5rem;
 	max-width: 900px;
-	padding-top: 7rem;
 }
 
 .conteudo-home .img {

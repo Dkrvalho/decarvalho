@@ -346,8 +346,8 @@ nav {
 	flex-direction: column;
 	justify-content: space-between;
 	margin: auto;
+	margin-top: 5rem;
 	max-width: 900px;
-	padding-top: 7rem;
 }
 
 .conteudo-home .img {
@@ -395,18 +395,19 @@ nav {
 }
 
 .conteudo-home h1 .thin2 {
+	border: 1px solid red;
 	font-size: clamp(1rem, 10vw, 2.3rem);
 	font-weight: 200;
 	padding: 0 0 0 2px;
 }
 
-.conteudo-home h1 .bold {
+.conteudo-home h1 .bold
+{
 	font-size: clamp(1rem, 10vw, 2.3rem);
 	font-weight: 400;
 }
 
-
-/* ---Configuração do conteúdo do estudos.html--- */
+						/* ---Configuração do conteúdo do estudos.html--- */
 .conteudo-estudos
 {
 	align-items: center;
